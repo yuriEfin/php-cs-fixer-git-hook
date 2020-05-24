@@ -102,30 +102,16 @@ return PhpCsFixer\Config::create()
 
 ### Результат в консоли:
 ```
-└─▸  git commit -m 'traceway-devel - merge dev into traceway-devel'
+└─▸  git commit -m 'traceway-devel - merge dev into dev'
 php-cs-fixer pre commit hook start
 Измененные файлы:
 commands/FnsController.php commands/HelloController.php commands/MdlpController.php commands/NotifyController.php modules/itrack/Handler/FnsNotifyHandler.php modules/itrack/Module.php modules/itrack/components/ArrayFormatterHelper.php modules/itrack/components/ISMarkirovka.php modules/itrack/components/Notify/Fns/FnsMacros.php modules/itrack/components/Notify/Fns/FnsMacrosBuilder.php modules/itrack/components/Notify/Fns/FnsNotifyService.php modules/itrack/components/Notify/Fns/Interfaces/FnsMacrosBuilderInterface.php modules/itrack/components/Notify/Fns/Interfaces/FnsNotifyServiceInterface.php modules/itrack/controllers/ActivationController.php modules/itrack/controllers/NotifyController.php modules/itrack/events/Fns/FnsNotifyEvent.php modules/itrack/models/Fns.php modules/itrack/models/Invoice.php modules/itrack/models/Notify.php
 Loaded config default from ".php_cs".
-Using cache file "/var/www/itrack/php-backend/.php_cs.cache".
+Using cache file "/var/www/{project-name}/php-backend/.php_cs.cache".
 Paths from configuration file have been overridden by paths provided as command arguments.
-   1) commands/FnsController.php
-   2) commands/HelloController.php
-   3) commands/MdlpController.php
-   4) commands/NotifyController.php
-   5) modules/itrack/Handler/FnsNotifyHandler.php
-   6) modules/itrack/Module.php
-   7) modules/itrack/components/ISMarkirovka.php
-   8) modules/itrack/components/Notify/Fns/FnsMacros.php
-   9) modules/itrack/components/Notify/Fns/FnsMacrosBuilder.php
-  10) modules/itrack/components/Notify/Fns/FnsNotifyService.php
-  11) modules/itrack/components/Notify/Fns/Interfaces/FnsMacrosBuilderInterface.php
-  12) modules/itrack/components/Notify/Fns/Interfaces/FnsNotifyServiceInterface.php
-  13) modules/itrack/controllers/NotifyController.php
-  14) modules/itrack/events/Fns/FnsNotifyEvent.php
-  15) modules/itrack/models/Fns.php
-  16) modules/itrack/models/Invoice.php
-  17) modules/itrack/models/Notify.php
+   1) commands/{filename1}.php
+   2) commands/{filename2}.php
+   
 
 Fixed all files in 13.908 seconds, 38.000 MB memory used
 php-cs-fixer pre commit hook finish
